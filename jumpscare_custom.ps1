@@ -1,12 +1,12 @@
 # Download Image; replace link to $image to add your own image
 
-$image =  "https://raw.githubusercontent.com/starcrime33/flipper_zero/main/jumpscare.png"
+$image =  "https://github.com/starcrime33/flipper_zero/raw/main/jumpscare.png"
 
 
 $i = -join($image,"?dl=1")
 iwr $i -O $env:TMP\i.png
 
-iwr https://raw.githubusercontent.com/starcrime33/flipper_zero/main/jumpscare.png?dl=1 -O $env:TMP\i.png
+iwr https://github.com/starcrime33/flipper_zero/raw/main/jumpscare.png?dl=1 -O $env:TMP\i.png
 
 # Download WAV file; replace link to $wav to add your own sound
 
